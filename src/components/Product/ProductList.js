@@ -4,13 +4,9 @@ import ProductItem from "./ProductItem";
 class ProductList extends Component {
 
     showProducts() {
-        if (this.props.products) {
-            return this.props.products.map(
-                product => (
-                    <ProductItem productName={product.productName} unitPrice={product.unitPrice} />
-                )
-            )
-        }
+        return this.props.products && this.props.products.map(product => (
+            <ProductItem key={product.productId} {...product} /> //productName={product.productName} unitPrice={product.unitPrice}
+        ))
     }
 
     render() {
