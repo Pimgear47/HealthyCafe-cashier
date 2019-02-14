@@ -11,7 +11,7 @@ class Monitor extends Component {
     }
 
     addOrder(product) {
-        let findOrder = this.state.orders.find(order => order.product.productID == product.productID);
+        let findOrder = this.state.orders.find(order => order.product.productId == product.productId);
         if (findOrder) { //check in orders ever have this order?
             findOrder.quantity++;
         }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ProductItem from "./ProductItem";
 
 class ProductList extends Component {
-
     showProducts() {
         return (
             this.props.products &&
@@ -14,9 +13,7 @@ class ProductList extends Component {
 
     render() {
         return (
-            <div className="row">
-                {this.showProducts()}
-            </div>
+            <div className="row"> {this.showProducts()}</div>
         );
     }
 }
