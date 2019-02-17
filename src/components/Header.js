@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 
-// const Header = () => {
-//     return <h1>Header</h1>;
-// }
-
 class Header extends Component {
 
     constructor(props) {
