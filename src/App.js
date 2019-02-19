@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Monitor from "./components/Monitor/Monitor";
+import axios from "axios";
 
 class App extends Component {
 
@@ -25,12 +26,16 @@ class App extends Component {
     // })
 
     /* 2 */
-    fetch("http://localhost:3001/products", { method: "GET" })
-      .then(res => res.json())
-      .then(res => {this.setState({products:res})})
+    // fetch("http://localhost:3001/products", { method: "GET" })
+    //   .then(res => res.json())
+    //   .then(res => {this.setState({products:res})})
 
     /* 3 */
+    axios.get("http://localhost:3001/products").then(res => {
+      {this.setState({products:res.data})}
+    });
     
+
   }
 
   render() {
