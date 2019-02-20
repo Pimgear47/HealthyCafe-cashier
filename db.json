@@ -32,177 +32,22 @@
     },
     {
       "id": 6,
-      "productName": "กาแฟ เฮลตี้ฟู๊ดส์",
+      "productName": "กาแฟเฮลตี้",
       "unitPrice": "140",
+      "thumbnail": "/images/product/6.jpg"
+    },
+    {
+      "id": 7,
+      "productName": "TEST",
+      "unitPrice": "999",
       "thumbnail": "/images/product/6.jpg"
     }
   ],
   "orders": [
     {
-      "orderedDate": "2019-02-19T09:28:42.653Z",
-      "totalPrice": 890,
+      "orderedDate": "2019-02-20T06:42:27.280Z",
+      "totalPrice": 750,
       "orders": [
-        {
-          "product": {
-            "id": 1,
-            "productName": "สลัดผัก",
-            "unitPrice": "120",
-            "thumbnail": "/images/product/1.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "90",
-            "thumbnail": "/images/product/2.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 3,
-            "productName": "บิงซู",
-            "unitPrice": "200",
-            "thumbnail": "/images/product/3.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 4,
-            "productName": "เฟรนฟราย",
-            "unitPrice": "140",
-            "thumbnail": "/images/product/4.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 5,
-            "productName": "เค้ก 3 ชั้น",
-            "unitPrice": "200",
-            "thumbnail": "/images/product/5.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 6,
-            "productName": "กาแฟ เฮลตี้ฟู้ด",
-            "unitPrice": "140",
-            "thumbnail": "/images/product/6.jpg"
-          },
-          "quantity": 1
-        }
-      ],
-      "id": 1
-    },
-    {
-      "orderedDate": "2019-02-19T09:29:28.309Z",
-      "totalPrice": 420,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "productName": "เฟรนฟราย",
-            "unitPrice": "140",
-            "thumbnail": "/images/product/4.jpg"
-          },
-          "quantity": 3
-        }
-      ],
-      "id": 2
-    },
-    {
-      "orderedDate": "2019-02-19T14:36:11.275Z",
-      "totalPrice": 210,
-      "orders": [
-        {
-          "product": {
-            "id": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "90",
-            "thumbnail": "/images/product/2.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 1,
-            "productName": "สลัดผัก",
-            "unitPrice": "120",
-            "thumbnail": "/images/product/1.jpg"
-          },
-          "quantity": 1
-        }
-      ],
-      "id": 3
-    },
-    {
-      "orderedDate": "2019-02-19T14:36:14.514Z",
-      "totalPrice": 430,
-      "orders": [
-        {
-          "product": {
-            "id": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "90",
-            "thumbnail": "/images/product/2.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 3,
-            "productName": "บิงซู",
-            "unitPrice": "200",
-            "thumbnail": "/images/product/3.jpg"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": 4,
-            "productName": "เฟรนฟราย",
-            "unitPrice": "140",
-            "thumbnail": "/images/product/4.jpg"
-          },
-          "quantity": 1
-        }
-      ],
-      "id": 4
-    },
-    {
-      "orderedDate": "2019-02-19T14:50:12.874Z",
-      "totalPrice": 890,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "productName": "เฟรนฟาย",
-            "unitPrice": "140",
-            "thumbnail": "/images/product/4.jpg"
-          },
-          "quantity": 6
-        }
-      ],
-      "id": 5
-    },
-    {
-      "orderedDate": "2019-02-19T14:53:34.162Z",
-      "totalPrice": 990,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "productName": "เฟรนฟาย",
-            "unitPrice": "140",
-            "thumbnail": "/images/product/4.jpg"
-          },
-          "quantity": 1
-        },
         {
           "product": {
             "id": 3,
@@ -214,35 +59,19 @@
         },
         {
           "product": {
-            "id": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "90",
-            "thumbnail": "/images/product/2.jpg"
-          },
-          "quantity": 5
-        }
-      ],
-      "id": 6
-    },
-    {
-      "orderedDate": "2019-02-19T14:59:40.090Z",
-      "totalPrice": 610,
-      "orders": [
-        {
-          "product": {
-            "id": 2,
-            "productName": "ไก่ทอด",
-            "unitPrice": "90",
-            "thumbnail": "/images/product/2.jpg"
+            "id": 4,
+            "productName": "เฟรนฟาย",
+            "unitPrice": "140",
+            "thumbnail": "/images/product/4.jpg"
           },
           "quantity": 1
         },
         {
           "product": {
-            "id": 3,
-            "productName": "บิงซู",
-            "unitPrice": "200",
-            "thumbnail": "/images/product/3.jpg"
+            "id": 2,
+            "productName": "ไก่ทอด",
+            "unitPrice": "90",
+            "thumbnail": "/images/product/2.jpg"
           },
           "quantity": 1
         },
@@ -254,18 +83,9 @@
             "thumbnail": "/images/product/1.jpg"
           },
           "quantity": 1
-        },
-        {
-          "product": {
-            "id": 5,
-            "productName": "เค้ก 3 ชั้น",
-            "unitPrice": "200",
-            "thumbnail": "/images/product/5.jpg"
-          },
-          "quantity": 1
         }
       ],
-      "id": 7
+      "id": 1
     }
   ]
 }
