@@ -46,7 +46,7 @@ class Header extends Component {
                             <li className="list-inline-item title">|</li>
                             <li className="list-inline-item title"><Link to="/orders" className="text-success">รายการสั่งซื้อ</Link></li>
                             <li className="list-inline-item title">|</li>
-                            <li className="list-inline-item title"><Link to="/product" className="text-success">สินค้า</Link></li>
+                            <li className="list-inline-item title"><Link to="/products" className="text-success">สินค้า</Link></li>
                             <li className="list-inline-item title">|</li>
                             <li className="list-inline-item title"><Link to="/about" className="text-success">เกี่ยวกับเรา</Link></li>
                         </ul>

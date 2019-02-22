@@ -35,12 +35,6 @@
       "productName": "กาแฟเฮลตี้",
       "unitPrice": "140",
       "thumbnail": "/images/product/6.jpg"
-    },
-    {
-      "id": 7,
-      "productName": "TEST",
-      "unitPrice": "999",
-      "thumbnail": "/images/product/6.jpg"
     }
   ],
   "orders": [
@@ -86,6 +80,40 @@
         }
       ],
       "id": 1
+    },
+    {
+      "orderedDate": "2019-02-22T14:29:10.112Z",
+      "totalPrice": 430,
+      "orders": [
+        {
+          "product": {
+            "id": 4,
+            "productName": "เฟรนฟาย",
+            "unitPrice": "140",
+            "thumbnail": "/images/product/4.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 3,
+            "productName": "บิงซู",
+            "unitPrice": "200",
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 2,
+            "productName": "ไก่ทอด",
+            "unitPrice": "90",
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
     }
   ]
 }
