@@ -22,12 +22,24 @@ class ProductEdit extends Component {
                     {match.path.indexOf("add") > 0 && (
                         <div>
                             <h2>เพิ่ม</h2>
+                            {products.saved &&
+                            (
+                                <div className="alert alert-secondary title" role="alert">
+                                    {products.msg}
+                                </div>
+                            )}
                             <ProductForm onProductSubmit={() => productCreate(formValues)} />
                         </div>
                     )}
                     {match.path.indexOf("edit") > 0 && (
                         <div>
                             <h2>แก้ไข</h2>
+                            {products.saved &&
+                            (
+                                <div className="alert alert-secondary title" role="alert">
+                                    {products.msg}
+                                </div>
+                            )}
                             <ProductForm onProductSubmit={() => productUpdate(products.id, formValues)} />
                         </div>
                     )}
@@ -39,7 +51,7 @@ class ProductEdit extends Component {
 }
 
 function mapStateToProps({ form, products }) {
-    return { formValues: form.productForm ? form.productForm.values : null, products }
+    return { formValues: form.ProductForm ? form.ProductForm.values : null, products }
 }
 
 export default connect(mapStateToProps, { productFetch, productCreate, productUpdate })(ProductEdit);

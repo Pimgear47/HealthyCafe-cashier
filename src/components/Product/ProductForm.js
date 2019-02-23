@@ -45,14 +45,11 @@ function validate(values) {
 ProductForm = reduxForm({ validate, form: "ProductForm" })(ProductForm);
 
 function mapStateToProps({ products }) {
-
     if (products && products.id) {
         return { initialValues: products }
     } else {
         return {};
     }
-
-
 }
 
 export default connect(mapStateToProps)(ProductForm);
