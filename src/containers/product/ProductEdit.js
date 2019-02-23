@@ -15,7 +15,6 @@ class ProductEdit extends Component {
 
     render() {
         const { formValues, match, products, productCreate, productUpdate } = this.props;
-        console.log(match);
         return (
             <div>
                 <Header />

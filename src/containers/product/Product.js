@@ -19,7 +19,7 @@ class Product extends Component {
     }
 
     delProduct(product) {
-        this.props.productsDelete(product.id);
+        this.props.productDelete(product.id);
     }
 
     editProduct(product) {
